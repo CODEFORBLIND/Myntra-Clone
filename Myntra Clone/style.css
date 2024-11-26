@@ -1,0 +1,155 @@
+/* font-family: 'Comfortaa', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Varela Round', sans-serif; */
+
+* {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 6rem;
+    position: sticky;
+    top: 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+}
+
+.container-logo {    
+    width: 5.5rem;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 1.5rem;
+}
+
+.container-logo img {
+    width: 100%;
+    height: 4rem;
+}
+
+.nav-main-content-bar {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 700;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.side-options {
+    width: 45%;
+    display: flex;
+    margin-left: 8rem;
+    margin-right: 1.5rem;
+    align-items: center;
+}
+
+.search {
+    margin-right: 0.5rem;
+    display: flex;
+    align-items: center;
+    background-color: rgb(243, 240, 240);
+    height: 3rem;
+    width: 300%;
+    padding-left: 1rem;
+    padding-right: 0.4rem;
+}
+
+.nav-options {
+    display: flex;
+    align-items: center;
+}
+
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-class {
+    display: flex;
+    width: 100%;
+    padding-top: 1.25rem;
+}
+
+.img {
+    width: 100%;
+}
+
+.text {
+    font-size: 1.5rem;
+    padding: 3rem 0 3rem 1.5rem;
+    color: rgba(32, 26, 26, 0.808);
+}
+
+.container-images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-img {
+    width: 13rem;
+}
+
+.footer {
+    display: flex;
+    background-color: rgb(223, 223, 223);
+    height: 400px;
+}
+
+.firstcontainer {
+    width: 25%;
+}
+
+.online-shopping {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.85rem;
+    color: rgb(43, 41, 41);
+    padding-left: 3rem;
+    padding-top: 2rem;
+}
+
+.anchor-tags a{
+    text-decoration: none;
+    color: rgb(43, 41, 41);
+}
+
+.anchor-tags {
+    padding-top: 1rem;
+}
+
+.anchor {
+    padding-bottom: 0.5rem;
+}
+
+.fourthcontainer {
+    padding-top: 2rem;
+    padding-right: 5rem;
+}
+
+.download-options {
+    display: flex;
+}
+
+.download {
+    width: 100px;
+    padding-top: 1.25rem;
+    padding-right: 0.5rem;
+}
+
+.apps {
+    display: flex;
+    padding-top: 0.5rem;
+}
+
+.app {
+    width: 25px;
+    padding: 0.25rem;
+}
